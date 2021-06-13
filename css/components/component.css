@@ -1,0 +1,88 @@
+/*DOTS*/
+.dot-container {display: inline-block;margin: 14px 0}
+.dot-container span{vertical-align: middle;}
+
+.dot {
+	height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.blue{background: var(--blue);}
+.dot.green{background: var(--green);}
+.dot.yellow{background: var(--yellow);}
+.dot.red{background: var(--red);}
+.dot.midnight{background: var(--midnight);}
+.dot.light{background: var(--light);border: 1px solid #D9D9D9;}
+.dot.white{background: var(--white);border: 1px solid #D9D9D9;}
+.dot.gray{background: var(--gray)}
+.dot.black{background: var(--black)}
+
+
+.dot-text {padding: 8px;font-family: SFProR;font-weight: 400}
+
+/*BUTTONS*/
+a.button{ 
+	background: #f5f5f5;
+	color: var(--black);
+	font-family: 'Montserrat'; 
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 8px 16px; }
+
+a.button_primary { 
+	background: var(--blue);
+	color: var(--white);
+	font-family: 'Montserrat'; 
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 8px 16px;}
+
+a.button_secondary { 
+	background: var(--gray);
+	color: var(--white);
+	font-family: 'Montserrat'; 
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 8px 16px;}
+	
+a.button_success { 
+	background: var(--green);
+	color: var(--white);
+	font-family: 'Montserrat'; 
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 8px 16px;}
+
+a.button_warning { 
+	background: var(--yellow);
+	color: var(--white);
+	font-family: 'Montserrat'; 
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 8px 16px;}
+
+a.button_danger { 
+	background: var(--red);
+	color: var(--white);
+	font-family: 'Montserrat'; 
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 8px 16px;}
+
+a.button_transparent { 
+	background: var(--white);
+	color: var(--black);
+	font-family: 'Montserrat'; 
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 8px 16px;}
