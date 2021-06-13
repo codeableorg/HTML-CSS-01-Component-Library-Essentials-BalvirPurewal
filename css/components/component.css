@@ -42,3 +42,7 @@ a.button.transparent { background: var(--white);color: var(--black);}
 
 a.button.small {padding: 4px 8px;}
 a.button.large {padding: 12px 32px;}
+
+img.image {border-radius: 5px;}
+img.image.circle {border-radius: 50%;}
+img.image.shadow {filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.2));}
