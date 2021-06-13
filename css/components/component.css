@@ -33,56 +33,9 @@ a.button{
 	border-radius: 8px;
 	padding: 8px 16px; }
 
-a.button_primary { 
-	background: var(--blue);
-	color: var(--white);
-	font-family: 'Montserrat'; 
-	font-weight: 400;
-	text-decoration: none;
-	border-radius: 8px;
-	padding: 8px 16px;}
-
-a.button_secondary { 
-	background: var(--gray);
-	color: var(--white);
-	font-family: 'Montserrat'; 
-	font-weight: 400;
-	text-decoration: none;
-	border-radius: 8px;
-	padding: 8px 16px;}
-	
-a.button_success { 
-	background: var(--green);
-	color: var(--white);
-	font-family: 'Montserrat'; 
-	font-weight: 400;
-	text-decoration: none;
-	border-radius: 8px;
-	padding: 8px 16px;}
-
-a.button_warning { 
-	background: var(--yellow);
-	color: var(--white);
-	font-family: 'Montserrat'; 
-	font-weight: 400;
-	text-decoration: none;
-	border-radius: 8px;
-	padding: 8px 16px;}
-
-a.button_danger { 
-	background: var(--red);
-	color: var(--white);
-	font-family: 'Montserrat'; 
-	font-weight: 400;
-	text-decoration: none;
-	border-radius: 8px;
-	padding: 8px 16px;}
-
-a.button_transparent { 
-	background: var(--white);
-	color: var(--black);
-	font-family: 'Montserrat'; 
-	font-weight: 400;
-	text-decoration: none;
-	border-radius: 8px;
-	padding: 8px 16px;}
+a.button.primary { background: var(--blue);color: var(--white);}
+a.button.secondary { background: var(--gray);color: var(--white);}
+a.button.success { background: var(--green);color: var(--white);}
+a.button.warning { background: var(--yellow);color: var(--white);}
+a.button.danger { background: var(--red);color: var(--white);}
+a.button.transparent { background: var(--white);color: var(--black);}
