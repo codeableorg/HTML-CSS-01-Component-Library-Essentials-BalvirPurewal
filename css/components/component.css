@@ -39,3 +39,6 @@ a.button.success { background: var(--green);color: var(--white);}
 a.button.warning { background: var(--yellow);color: var(--white);}
 a.button.danger { background: var(--red);color: var(--white);}
 a.button.transparent { background: var(--white);color: var(--black);}
+
+a.button.small {padding: 4px 8px;}
+a.button.large {padding: 12px 32px;}
