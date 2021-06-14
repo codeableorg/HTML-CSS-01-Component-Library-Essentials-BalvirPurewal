@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/components/component.css">
 </head>
 <body>
+	<div class="logo"><img src="/resources/logo.svg"></div>
 	<h1 class="subtitle">Typography</h1>
 	<h2 class="subtitle">Headings</h2>
 	
@@ -42,7 +43,7 @@
 	</div>
 
 	<h2 class="subtitle">Paragraph</h2>
-	<p>The best programs are written so that computing machines can perform them quickly and so that human beings can <strong>understand them clearly</strong>. A programmer is ideally an essayist who works with traditional aesthetic and literary forms as well as mathematical concepts, to communicate the way that an algorithm works and to convince a reader that the results will be correct.</p>
+	<p class="width-less">The best programs are written so that computing machines can perform them quickly and so that human beings can <strong>understand them clearly</strong>. A programmer is ideally an essayist who works with traditional aesthetic and literary forms as well as mathematical concepts, to communicate the way that an algorithm works and to convince a reader that the results will be correct.</p>
 	<div class="codebox">
 		<code>
 			<span class="blue">
@@ -55,7 +56,7 @@
 	</div>
 	
 	<h2 class="subtitle">Quote</h2>
-	<blockquote cite="http://example.com/facts">
+	<blockquote class="width-less" cite="http://example.com/facts">
 		<p>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</p>
 		<h6>- Martin Fowler</h6>
 	</blockquote>
@@ -69,7 +70,7 @@
 			</span>
 		</code>
 	</div>
-	<section class="width-less">
+	<section class="width-medium">
 		<h2 class="subtitle">Colors</h2>
 		<div class="dot-container"><span class="dot blue"></span><span class="dot-text">blue #118AB2</span></div>
 		<div class="dot-container"><span class="dot green"></span><span class="dot-text">green #06D6A0</span></div>
@@ -106,47 +107,47 @@
 	</div>
 
 	<h2 class="subtitle">Button Types</h2>
-	<a class="button_primary" href="#">Primary</a>
-	<a class="button_secondary" href="#">Secondary</a>
-	<a class="button_success" href="#">Success</a>
-	<a class="button_warning" href="#">Warning</a>
-	<a class="button_danger" href="#">Danger</a>
-	<a class="button_transparent" href="#">Transparent</a>
+	<a class="button primary" href="#">Primary</a>
+	<a class="button secondary" href="#">Secondary</a>
+	<a class="button success" href="#">Success</a>
+	<a class="button warning" href="#">Warning</a>
+	<a class="button danger" href="#">Danger</a>
+	<a class="button transparent" href="#">Transparent</a>
 	<div class="codebox">
 		<code>
 			<div>
 				<span class="blue"><</span><span class="blue">a</span>
-				<span class="red"> class=<span class="orange">”button_primary”</span></span>
+				<span class="red"> class=<span class="orange">”button primary”</span></span>
 				<span class="red"> href=<span class="orange">”#”</span></span>
 				<span class="blue">></span>Primary<span class="blue"><</span><span class="blue">/a></span>
 			</div>
 			<div>
 				<span class="blue"><</span><span class="blue">a</span>
-				<span class="red"> class=<span class="orange">”button_secondary”</span></span>
+				<span class="red"> class=<span class="orange">”button secondary”</span></span>
 				<span class="red"> href=<span class="orange">”#”</span></span>
 				<span class="blue">></span>Secondary<span class="blue"><</span><span class="blue">/a></span>
 			</div>
 			<div>
 				<span class="blue"><</span><span class="blue">a</span>
-				<span class="red"> class=<span class="orange">”button_success”</span></span>
+				<span class="red"> class=<span class="orange">”button success”</span></span>
 				<span class="red"> href=<span class="orange">”#”</span></span>
 				<span class="blue">></span>Success<span class="blue"><</span><span class="blue">/a></span>
 			</div>
 			<div>
 				<span class="blue"><</span><span class="blue">a</span>
-				<span class="red"> class=<span class="orange">”button_warning”</span></span>
+				<span class="red"> class=<span class="orange">”button warning”</span></span>
 				<span class="red"> href=<span class="orange">”#”</span></span>
 				<span class="blue">></span>Warning<span class="blue"><</span><span class="blue">/a></span>
 			</div>
 			<div>
 				<span class="blue"><</span><span class="blue">a</span>
-				<span class="red"> class=<span class="orange">”button_danger”</span></span>
+				<span class="red"> class=<span class="orange">”button danger”</span></span>
 				<span class="red"> href=<span class="orange">”#”</span></span>
 				<span class="blue">></span>Danger<span class="blue"><</span><span class="blue">/a></span>
 			</div>
 			<div>
 				<span class="blue"><</span><span class="blue">a</span>
-				<span class="red"> class=<span class="orange">”button_transparent”</span></span>
+				<span class="red"> class=<span class="orange">”button transparent”</span></span>
 				<span class="red"> href=<span class="orange">”#”</span></span>
 				<span class="blue">></span>Transparent<span class="blue"><</span><span class="blue">/a></span>
 			</div>
@@ -154,22 +155,37 @@
 	</div>
 
 	<h2 class="subtitle">Button Styles</h2>
-	<a class="button_primary" href="#">Primary</a>
-	<a class="button_primary" href="#"><i class="fas fa-arrow-down"></i> With Icon</a>
-	<a class="button_primary" href="#"><i class="fas fa-arrow-down"></i></a>
+	<a class="button primary" href="#">Primary</a>
+	<a class="button primary" href="#"><i class="fas fa-arrow-down"></i> With Icon</a>
+	<a class="button primary" href="#"><i class="fas fa-arrow-down"></i></a>
 	<div class="codebox">
 		<code>
 			<div>
 				<span class="blue"><</span><span class="blue">a</span>
-				<span class="red"> class=<span class="orange">”button”</span></span>
+				<span class="red"> class=<span class="orange">”button primary”</span></span>
 				<span class="red"> href=<span class="orange">”#”</span></span>
-				<span class="blue">></span>
-			</div>
-			<div class="margin-left">
-				<span class="blue"><</span><span class="blue">i</span>
-				<span class="red"> class=<span class="blue">””</span></span><span class="blue">></span><span class="blue"><</span><span class="blue">/i></span>Base button
+				<span class="blue">></span>Primary<span class="blue"><</span><span class="blue">/a></span>
 			</div>
 			<div>
+				<span class="blue"><</span><span class="blue">a</span>
+				<span class="red"> class=<span class="orange">”button primary”</span></span>
+				<span class="red"> href=<span class="orange">”#”</span></span>
+				<span class="blue">></span>
+				<div class="margin-left">
+					<span class="blue"><</span><span class="blue">i</span>
+					<span class="red"> class=<span class="blue">””</span></span><span class="blue">></span><span class="blue"><</span><span class="blue">/i></span>Primary
+				</div>
+				<span class="blue"><</span><span class="blue">/a></span>
+			</div>
+			<div>
+				<span class="blue"><</span><span class="blue">a</span>
+				<span class="red"> class=<span class="orange">”button primary”</span></span>
+				<span class="red"> href=<span class="orange">”#”</span></span>
+				<span class="blue">></span>
+				<div class="margin-left">
+					<span class="blue"><</span><span class="blue">i</span>
+					<span class="red"> class=<span class="blue">””</span></span><span class="blue">></span><span class="blue"><</span><span class="blue">/i></span>
+				</div>
 				<span class="blue"><</span><span class="blue">/a></span>
 			</div>
 		</code>
@@ -177,85 +193,93 @@
 
 
 	<h2 class="subtitle">Button Sizes</h2>
-
+	<a class="button primary" href="#">Primary</a>
+	<a class="button primary small" href="#">Small</a>
+	<a class="button primary large" href="#">Large</a>
 	<div class="codebox">
 		<code>
 			<div>
 				<span class="blue"><</span><span class="blue">a</span>
-				<span class="red"> class=<span class="orange">”button”</span></span>
+				<span class="red"> class=<span class="orange">”button primary”</span></span>
 				<span class="red"> href=<span class="orange">”#”</span></span>
-				<span class="blue">></span>
-			</div>
-			<div class="margin-left">
-				<span class="blue"><</span><span class="blue">i</span>
-				<span class="red"> class=<span class="blue">””</span></span><span class="blue">></span><span class="blue"><</span><span class="blue">/i></span>Base button
+				<span class="blue">></span>Primary<span class="blue"><</span><span class="blue">/a></span>
 			</div>
 			<div>
-				<span class="blue"><</span><span class="blue">/a></span>
+				<span class="blue"><</span><span class="blue">a</span>
+				<span class="red"> class=<span class="orange">”button primary small”</span></span>
+				<span class="red"> href=<span class="orange">”#”</span></span>
+				<span class="blue">></span>Small<span class="blue"><</span><span class="blue">/a></span>
+			</div>
+			<div>
+				<span class="blue"><</span><span class="blue">a</span>
+				<span class="red"> class=<span class="orange">”button primary large”</span></span>
+				<span class="red"> href=<span class="orange">”#”</span></span>
+				<span class="blue">></span>Large<span class="blue"><</span><span class="blue">/a></span>
 			</div>
 		</code>
 	</div>
 
 
 	<h2 class="subtitle">Images</h2>
-
+	<img class="image" src="https://via.placeholder.com/100">
+	<img class="image circle" src="https://via.placeholder.com/100">
+	<img class="image shadow" src="https://via.placeholder.com/100">
+	<img class="image circle shadow" src="https://via.placeholder.com/100">
 	<div class="codebox">
 		<code>
 			<div>
-				<span class="blue"><</span><span class="blue">a</span>
-				<span class="red"> class=<span class="orange">”button”</span></span>
-				<span class="red"> href=<span class="orange">”#”</span></span>
+				<span class="blue"><</span><span class="blue">img</span>
+				<span class="red"> class=<span class="orange">”image”</span></span>
+				<span class="red"> href=<span class="orange">”image_src.jpg”</span></span>
 				<span class="blue">></span>
 			</div>
-			<div class="margin-left">
-				<span class="blue"><</span><span class="blue">i</span>
-				<span class="red"> class=<span class="blue">””</span></span><span class="blue">></span><span class="blue"><</span><span class="blue">/i></span>Base button
+			<div>
+				<span class="blue"><</span><span class="blue">img</span>
+				<span class="red"> class=<span class="orange">”image circle”</span></span>
+				<span class="red"> href=<span class="orange">”image_src.jpg”</span></span>
+				<span class="blue">></span>
 			</div>
 			<div>
-				<span class="blue"><</span><span class="blue">/a></span>
+				<span class="blue"><</span><span class="blue">img</span>
+				<span class="red"> class=<span class="orange">”image shadow”</span></span>
+				<span class="red"> href=<span class="orange">”image_src.jpg”</span></span>
+				<span class="blue">></span>
+			</div>
+			<div>
+				<span class="blue"><</span><span class="blue">img</span>
+				<span class="red"> class=<span class="orange">”image circle shadow”</span></span>
+				<span class="red"> href=<span class="orange">”image_src.jpg”</span></span>
+				<span class="blue">></span>
 			</div>
 		</code>
 	</div>
-
-
 	<hr>
 
 	<h1 class="subtitle">Blocks</h1>
-
-	<div class="codebox">
-		<code>
-			<div>
-				<span class="blue"><</span><span class="blue">a</span>
-				<span class="red"> class=<span class="orange">”button”</span></span>
-				<span class="red"> href=<span class="orange">”#”</span></span>
-				<span class="blue">></span>
-			</div>
-			<div class="margin-left">
-				<span class="blue"><</span><span class="blue">i</span>
-				<span class="red"> class=<span class="blue">””</span></span><span class="blue">></span><span class="blue"><</span><span class="blue">/i></span>Base button
-			</div>
-			<div>
-				<span class="blue"><</span><span class="blue">/a></span>
-			</div>
-		</code>
-	</div>
-
 	<h2 class="subtitle">Banner</h2>
-
+	<div class="banner">
+		<h1>Full Stack Web Developer</h1>
+		<h5>Become a better version of yourself in only 6 months</h5>
+		<a class="button success" href="#">Apply now</a>
+	</div>
 	<div class="codebox">
 		<code>
 			<div>
-				<span class="blue"><</span><span class="blue">a</span>
-				<span class="red"> class=<span class="orange">”button”</span></span>
-				<span class="red"> href=<span class="orange">”#”</span></span>
-				<span class="blue">></span>
+				<span class="blue">&#60;div</span>
+				<span class="red"> class=</span><span class="orange">”banner”</span><span class="blue">></span>
 			</div>
 			<div class="margin-left">
-				<span class="blue"><</span><span class="blue">i</span>
-				<span class="red"> class=<span class="blue">””</span></span><span class="blue">></span><span class="blue"><</span><span class="blue">/i></span>Base button
+				<span class="blue">&#60;h1&#62;</span>Your title here<span class="blue">&#60;/h1&#62;</span>
+				<div><span class="blue">&#60;h5&#62;</span>Your text here<span class="blue">&#60;/h5&#62;</span></div>
+				<div>
+					<span class="blue"><</span><span class="blue">a</span>
+					<span class="red"> class=<span class="orange">”button success”</span></span>
+					<span class="red"> href=<span class="orange">”#”</span></span>
+					<span class="blue">></span>Text for button<span class="blue"><</span><span class="blue">/a></span>
+				</div>
 			</div>
 			<div>
-				<span class="blue"><</span><span class="blue">/a></span>
+				<span class="blue">&#60;/div&#62;</span>
 			</div>
 		</code>
 	</div>
