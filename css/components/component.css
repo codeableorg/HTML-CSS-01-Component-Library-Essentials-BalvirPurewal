@@ -5,7 +5,7 @@
 .dot {
 	height: 25px;
   width: 25px;
-  background-color: #bbb;
+  background: #bbb;
   border-radius: 50%;
   display: inline-block;
 }
@@ -43,6 +43,21 @@ a.button.transparent { background: var(--white);color: var(--black);}
 a.button.small {padding: 4px 8px;}
 a.button.large {padding: 12px 32px;}
 
-img.image {border-radius: 5px;}
+/*IMAGES*/
+img.image {border-radius: 5px; margin-right: 32px;}
 img.image.circle {border-radius: 50%;}
 img.image.shadow {filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.2));}
+
+/*BANNER*/
+.banner{
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../resources/banner.png), no-repeat;
+	width: 736px;
+	height: 250px;
+	padding: 36px 96px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.banner h1,.banner h5 {color: white;margin:12px 0;}
+.banner h1 {text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+.banner .button {margin:36px 0;}
